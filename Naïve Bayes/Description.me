@@ -1,0 +1,26 @@
+# Naive Bayes
+
+➡ Naive Bayes is a Supervised Machine Learning algorithm which is used for classification. It work on the principal of Bayes Theorem
+   calculating the probability of an event say H to occur given that other event say E has already occurred.
+
+                                 BAYES THEREOM
+
+                          P(H|E) = P(H) * P(E|H) / P(E) 
+
+➡ Here it is said Naive as it assumes that all the event that are given to be independent of each other.
+
+
+
+➡It is used for many classification task one of them is spam filtering theoretically it calculates probability of mail being spam in following way . 
+
+P(spam|w1,w2,....wn) =  P(w1|spam)*P(w2|spam)*...P(wn|spam)*P(spam)
+                       --------------------------------------------
+                                P(w1,w2,w3.....wn)
+                                                  
+➡ Where 
+      w1,w2,...,wn=features(words in mails)
+
+      spam=That given mail with this features is spam.
+
+➡ I will be demonstrating  the same as mentioned above using Naive Bayes Classifier and some NLP in python to classify spam from emails.
+
