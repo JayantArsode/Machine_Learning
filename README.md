@@ -1,4 +1,4 @@
-# Machine_Leraning
+# Machine_Learning
 This is all about diffrent Machine Learning Algorithms:
 1) Supervised 
  - Linear Regression
